@@ -43,7 +43,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   // Start the download
   await streamPipeline(audioStream, writableStream);
 
-  await m.reply('*⬆️𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁 Uploading Your Song🎧*');
+  await m.reply('*⬆️Toxic-Alexa_V4 Uploading Your Song🎧*');
 
   let doc = {
     audio: {
