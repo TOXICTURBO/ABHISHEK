@@ -8,14 +8,14 @@ import os from 'os';
 const streamPipeline = promisify(pipeline);
 
 var handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw `Use example ${usedPrefix}${command} naruto blue bird`;
+  if (!text) throw `Use example ${usedPrefix}${command} look at me`;
   await m.react(sdc);
 
   let search = await yts(text);
   let vid = search.videos[Math.floor(Math.random() * search.videos.length)];
   if (!search) throw 'Video Not Found, Try Another Title';
   let { title, thumbnail, timestamp, views, ago, url } = vid;
-  let wm = 'ABHISHEK-SER';
+  let wm = 'TurboMods';
 
   let captvid = `╭──── 〔 Y O U T U B E 〕 ─⬣
   ⬡ Title: ${title}

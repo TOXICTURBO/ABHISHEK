@@ -47,7 +47,7 @@ const handler = async (m, { conn, text }) => {
         imageBuffer: await axios.get(spty.data.cover_url, { responseType: "arraybuffer" }).then((response) => Buffer.from(response.data, "binary")),
       },
       mimetype: 'image/jpeg',
-      copyright: 'Copyright Darlyn ©2023',
+      copyright: 'Copyright Turbo ©2023',
     };
     await fs.promises.writeFile(filePath, spty.audio);
     await NodeID3.write(tags, filePath);
