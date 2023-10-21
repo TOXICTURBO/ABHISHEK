@@ -1,4 +1,4 @@
-//ABHISHEK-SER-BOT
+
 import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text }) => {
@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
     console.log('JSON response:', json);
 
     
-    json.creator = 'ABHISHEK SURESH';
+    json.creator = 'TurboMods';
 
     let milf = '';
     for (let prop in json) {

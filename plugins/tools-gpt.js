@@ -15,7 +15,7 @@ const openai = new OpenAIApi(configuration);
 
 let handler = async (m, { conn, usedPrefix, command, text }) => {
   try {
-    if (!text) throw new Error(`Chatgpt .\n\nuse:\n${usedPrefix}${command} Halo?`);
+    if (!text) throw new Error(`Chatgpt .\n\nuse:\n${usedPrefix}${command} Hello?`);
 
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
