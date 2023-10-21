@@ -47,24 +47,17 @@ let user = global.db.data.users[who]
   
 let infobt = `
 ≡ *INFO BOT*
-  
-*STATE*
-▢ *${groupsIn.length}* GROUP CHATS
-▢ *${groupsIn.length}* united groups
-▢ *${groupsIn.length - groupsIn.length}* abandoned groups
-▢ *${chats.length - groupsIn.length}* private chats
-▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *ABHISHEK SURESH*
+  *TurboMods*
 ▢ Instagram :
-  • https://instagram.com/abhishek_ser
+  • https://instagram.com/toxic_turbo777
 ▢ GitHub :
-  • https://github.com/AbhishekSuresh2
-▢ Telegram : 
-  • https://t.me/Abhishek_Ser  
+  • https://github.com/TURBOHYPER
+▢ Whatsapp : 
+  • https://wa.me/916380260672  
 ▢ YouTube : 
-  • https://youtube.com/@comedymelodych8468
+  • https://youtube.com/@TurboMods
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}

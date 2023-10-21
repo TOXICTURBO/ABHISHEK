@@ -1,21 +1,21 @@
 let handler = async m => m.reply(`
 
-≡  *𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁*   GROUPS
+≡  *Toxic-Alexa_V4*   GROUPS
 ▢ Join Public Bot Group And Support
-https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD
+https://chat.whatsapp.com/K6mAtWVBislDdffGxF5zU9
 ─────────────
-▢ *Owner Telegram*
-https://t.me/Abhishek_Ser
+▢ *Owner Whatsapp*
+https://wa.me/916380260672
  
 ▢ *YouTube*
-https://youtube.com/@comedymelodych8468
+https://youtube.com/@TurboMods
 
 ▢ *Instagram*
-https://instagram.com/abhishek_ser
+https://instagram.com/toxic_turbo777
 
 `.trim())
-handler.help = ['gpabhi']
+handler.help = ['gpalexa']
 handler.tags = ['main']
-handler.command = ['groups', 'gpabhi', 'abhigp', 'groupabhi'] 
+handler.command = ['groups', 'gpalexa', 'alexagp', 'groupalexa'] 
 
 export default handler

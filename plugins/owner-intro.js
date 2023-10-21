@@ -1,7 +1,7 @@
 const { Function, getBuffer } = require('../lib/')
 const { generateWAMessage, proto } = require('@adiwajshing/baileys');
-const image = 'https://i.imgur.com/BsyNXqH.jpeg' //MAIN IMAGE URL HERE
-const logo = 'https://i.imgur.com/BsyNXqH.jpeg'
+const image = 'https://avatars.githubusercontent.com/u/97358745?v=4' //MAIN IMAGE URL HERE
+const logo = 'https://avatars.githubusercontent.com/u/97358745?v=4'
 
 Function(
 	{
@@ -23,11 +23,11 @@ Function(
         options.linkPreview = {
                renderLargerThumbnail: true,
                showAdAttribution: true,
-               title: "𝔸𝔹ℍ𝕀𝕊ℍ𝔼𝕂 𝕊𝕌ℝ𝔼𝕊ℍ",
+               title: "Toxic-Alexa_V4",
                body: "ᴄʟɪᴄᴋ ʜᴇʀᴇ 🦋 !!",
                mediaType: 1,
                thumbnail: thumb,
-               sourceUrl: "http://wa.me/919074692450?text=_៚ʜᴇʟʟᴏ+🪄_"
+               sourceUrl: "http://wa.me/916380260672?text=_៚ʜᴇʟʟᴏ+🪄_"
              }
         // ADDED */ TO REMOVE LINK PREVIEW TYPE
         options.quoted = {
@@ -47,12 +47,12 @@ Function(
         
 let messages = await generateWAMessage(message.jid, { text: `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
 │       *「 𝗠𝗬 𝗜𝗡𝗧𝗥𝗢 」*
-│ *Name      :* 𝔸𝔹ℍ𝕀𝕊ℍ𝔼𝕂 𝕊𝕌ℝ𝔼𝕊ℍ
-│ *Place       :* 𝙺𝙴𝚁𝙰𝙻𝙰
-│ *Gender   :*  𝙼𝚊𝚕𝚎
+│ *Name      :* TurboMods
+│ *Place       :* Tamilnadu
+│ *Gender   :*  Male
 │ *Age          :* 15
-│ *Phone     :* wa.me/919074692450
-│ *IG ID        :* abhishek_ser
+│ *Phone     :* wa.me/916380260672
+│ *IG ID        :* toxic_turbo777
 │ *Status     :* _
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙`}, {quoted: message.quoted || ''})
 
